@@ -1,0 +1,46 @@
+231210 22:32:51  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+231210 22:32:51  InnoDB: Starting log scan based on checkpoint at
+InnoDB: log sequence number 0 243992.
+InnoDB: Doing recovery: scanned up to log sequence number 0 243992
+231210 22:32:51  InnoDB: Flushing modified pages from the buffer pool...
+231210 22:32:51  InnoDB: Started; log sequence number 0 243992
+231211  2:04:33  InnoDB: Error: in ALTER TABLE `shopping/client`
+InnoDB: has or is referenced in foreign key constraints
+InnoDB: which are not compatible with the new table definition.
+231211  2:04:33  InnoDB: Error: table `shopping/client` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/mysql/en/InnoDB_troubleshooting_datadict.html
+231211  2:06:09  InnoDB: Error: in ALTER TABLE `shopping/client`
+InnoDB: has or is referenced in foreign key constraints
+InnoDB: which are not compatible with the new table definition.
+231211  2:06:09  InnoDB: Error: table `shopping/client` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/mysql/en/InnoDB_troubleshooting_datadict.html
+231211  2:26:46  InnoDB: Error: in ALTER TABLE `shopping/client`
+InnoDB: has or is referenced in foreign key constraints
+InnoDB: which are not compatible with the new table definition.
+231211  2:26:46  InnoDB: Error: table `shopping/client` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/mysql/en/InnoDB_troubleshooting_datadict.html
+231211  2:27:03  InnoDB: Error: in ALTER TABLE `shopping/client`
+InnoDB: has or is referenced in foreign key constraints
+InnoDB: which are not compatible with the new table definition.
+231211  2:27:03  InnoDB: Error: table `shopping/client` does not exist in the InnoDB internal
+InnoDB: data dictionary though MySQL is trying to drop it.
+InnoDB: Have you copied the .frm file of the table to the
+InnoDB: MySQL database directory from another database?
+InnoDB: You can look for further help from
+InnoDB: http://dev.mysql.com/doc/mysql/en/InnoDB_troubleshooting_datadict.html

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rechercher Etudiant</title>
+</head>
+<body>
+    <form action="rechercheEtud_action.php" method="post">
+        <fieldset>
+            <legend style="color : blue;"><h2>Rechercher un Etudiant</h2></legend>
+            <p>Veuillez selectionner un critére de recherche : </p>
+            <table>
+                <tr><td>
+                    Critètre:
+                </td>
+            <td>
+                <select name="list" id="">
+                    <option value="CodeEtudiant">CodeEtudiant</option>
+                    <option value="nom">nom</option>
+                    <option value="prenom">prenom</option>
+                    <option value="adresse">adresse</option>
+                    <option value="classe">classe</option>
+                </select>
+            </td></tr>
+            <tr>
+                <td>Valeur:</td>
+                <td><input type="text" name="valeur"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Annuler"></td>
+                <td><input type="submit" value="Rechercher"></td>
+            </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

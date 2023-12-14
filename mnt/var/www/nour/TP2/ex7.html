@@ -1,0 +1,79 @@
+<html>
+<body>
+    
+        <form action="ex7.php" method="post">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label>civilite</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="m" value="ms"/>ms
+                            <input type="radio" name="m" value="mme"/>mme
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>nom</label>
+                        </td>
+                        <td>
+                            <input type="text" name="t1"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>prenom</label>
+                        </td>
+                        <td>
+                            <input type="text" name="t2"/>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>classe</label>
+                        </td>
+                        <td>
+                            <select name="op">
+                                <option value="op1">TI 11</option>
+                                <option value="op2">TI12</option>
+                                <option value="op3">DSI21</option>
+                                <option value="op4">DSI23</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>option</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="ch[]" value="1"/>option 1<br>
+                            <input type="checkbox" name="ch[]" value="2"/>option 2<br>
+                            <input type="checkbox" name="ch[]" value="3"/>option 3<br>
+                            <input type="checkbox" name="ch[]" value="4"/>option 4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>commentaire</label>
+                        </td>
+                        <td>
+                            <textarea name="cmt"></textarea>
+                        </td>
+                       </tr>
+                       <tr>
+                        <td>
+                            <input type="reset" value="annuler"/>
+                        </td>
+                        <td>
+                            <input type="submit" value="ok"/>
+                        </td>
+                       </tr>
+                </table>
+            </fieldset>
+            </form>
+    
+    
+</body>
+</html>

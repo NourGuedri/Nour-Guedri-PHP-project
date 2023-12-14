@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Inscrire.php" method="post">
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <label>Numero</label>
+                    </td>
+                    <td>
+                        <input type="text" name="t0"/>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label>Nom</label>
+                    </td>
+                    <td>
+                        <input type="text" name="t1"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Prenom</label>
+                    </td>
+                    <td>
+                        <input type="text" name="t2"/>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label>Genre</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="g" value="fille"/>Fille
+                        <input type="radio" name="g" value="mme"/>Garcon
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Niveau scolaire</label>
+                    </td>
+                    <td>
+                        <select name="op">
+                            <option value="op1">7 eme</option>
+                            <option value="op2">8 eme</option>
+                            <option value="op3">9 eme</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Condidat</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="c" value="oui"/>Oui
+                        <input type="radio" name="c" value="nom"/>Nom
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Inscrire"/>
+                    </td>
+                    <td>
+                        <input type="reset" value="Annuler"/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        </form>
+</body>
+</html>

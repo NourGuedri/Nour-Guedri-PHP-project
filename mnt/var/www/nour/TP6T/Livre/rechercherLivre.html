@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rechercher Livre</title>
+</head>
+<body>
+    <form action="rechercheLivre_action.php" method="post">
+        <fieldset>
+            <legend style="color : blue;"><h2>Rechercher un Livre</h2></legend>
+            <p>Veuillez selectionner un critére de recherche : </p>
+            <table>
+                <tr><td>
+                    Critètre:
+                </td>
+            <td>
+                <select name="list" id="">
+                    <option value="CodeLivre">CodeLivre</option>
+                    <option value="titre">titre</option>
+                    <option value="auteur">auteur</option>
+                </select>
+            </td></tr>
+            <tr>
+                <td>Valeur:</td>
+                <td><input type="text" name="valeur">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Annuler"></td>
+                <td><input type="submit" value="Rechercher"></td>
+            </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
